@@ -1,0 +1,13 @@
+[init]
+	defaultBranch = main
+[user]
+	email = ryanehenderson@protonmail.com
+	name = Ryan Henderson
+	signingkey = 7D7EA4BF479BCD02
+[core]
+	editor = code --wait
+[diff]
+	colormoved = plain
+	colormovedws = allow-indentation-change
+[commit]
+	gpgsign = true
