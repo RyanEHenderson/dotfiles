@@ -1,0 +1,2 @@
+xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Scroll Method Enabled" 0, 0, 1
+xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Button Scrolling Button" 2
