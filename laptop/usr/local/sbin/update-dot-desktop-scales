@@ -1,0 +1,3 @@
+#! /bin/bash
+sed -i 's/Exec=\/usr\/games\/steam/Exec=env GDK_SCALE=2 \/usr\/games\/steam/' /usr/share/applications/steam.desktop 
+sed -i 's/Exec=spotify %U/Exec=spotify --force-device-scale-factor=1.75 %U/' /usr/share/applications/spotify.desktop

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=IntelliJ Idea
+Comment=IntelliJ Idea Community Edition
+Exec=/home/ryan/Documents/Software/tarball/idea-IC-213.6777.52/bin/idea %U
+Icon=/home/ryan/Documents/Software/tarball/idea-IC-213.6777.52/bin/idea.png
+Terminal=false
+Type=Application
+Encoding=UTF-8
