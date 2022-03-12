@@ -3,6 +3,8 @@ Installed via apt repo
 Installed via 3rd party apt repo
   * spotify-client
 Installed via .deb
-  * gdlauncher mullvad-vpn protonmail-bridge rstudio zoom
+  * gdlauncher mullvad-vpn protonmail-bridge rstudio zoom deezer-desktop
 Installed via tarball
   * intellij-idea-community-edition
+Installed via other methods
+  * auto-cpufreq
