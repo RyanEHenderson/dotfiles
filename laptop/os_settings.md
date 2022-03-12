@@ -22,6 +22,7 @@ Mouse & Touchpad
   * Touchpad natural scrolling on
 Keyboard
   * PrtSc button is copy region to clipboard
+  * Move lock screen to Super+L
 Misc
   * Encrypted root
   * Encrypted swap
