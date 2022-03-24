@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="bluetooth", ATTR{idVendor}=="1532", ATTR{idProduct}=="0061", RUN+="/usr/local/sbin/set-mouse-scrolling"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1532", ATTR{idProduct}=="0062", RUN+="/usr/local/sbin/set-mouse-scrolling"
