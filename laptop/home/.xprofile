@@ -1,2 +1,11 @@
-xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Scroll Method Enabled" 0, 0, 1
-xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Button Scrolling Button" 2
+#!/bin/bash
+if xinput | grep 'Razer Razer Atheris - Mobile Gaming Mouse' > /dev/null; then # Mouse when plugged in to dongle
+    xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Scroll Method Enabled" 0, 0, 1
+    xinput set-prop "pointer:Razer Razer Atheris - Mobile Gaming Mouse" "libinput Button Scrolling Button" 2
+fi
+
+if xinput | grep 'Razer Atheris Mouse' > /dev/null; then # Mouse when connected via bluetooth
+    xinput set-prop "pointer:Razer Atheris Mouse" "libinput Scroll Method Enabled" 0, 0, 1
+    xinput set-prop "pointer:Razer Atheris Mouse" "libinput Button Scrolling Button" 2
+fi
+
